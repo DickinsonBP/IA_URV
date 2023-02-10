@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dicki/ontologies/2022/10/GodOfWar1Ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dicki/ontologies/2022/10/GodOfWar1Ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/dicki/ontologies/2022/10/GodOfWar1Ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aegean_Sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Army_Of_Hades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Athens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Athens_Soldiers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Athens_Spectre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Axe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body_Burner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centaur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cerberus_Brood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chaos_Swords"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cursed_Archer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cursed_Legionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dead_Legionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desert_Cyclop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desert_Mermaid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desert_Of_Lost_Souls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desert_Spectre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deserts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Double_Bladed_Spear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evil_Clones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fury_Of_Zeus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game_Difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game_Monsters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaze_Of_Medusa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#God"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gods_Localities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gorgon_Eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gravedigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Greek_Monsters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hades_Harpy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hades_Legionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hades_Minotaur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hades_Satyr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hammer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Characters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Localities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keys_Of_Muses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Killer_Gorgon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legionary_Captain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magical_Legionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medusa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Dead_Archer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Dead_Legionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olympus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oracle_Of_Athens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Localities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Weapons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pandora_Keeper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pandoras_Temple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phoenix_Feathers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poseidons_Trident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Powers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Projectiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Arche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Cyclop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Gorgon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Harpy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Satyr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Sword"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sailor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soldier_Minotaur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spartan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spartan_Soldier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suicide_Bluffs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sword"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swords_Of_Artemis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swords_Of_Gods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temple_Of_Oracle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Titans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torturer_Minotaur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warrior_Minotaur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wild_Cyclop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrath_Of_Gods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrath_Of_Poseidon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zeus_Mountain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attacksWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fightAgainst"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFatherOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFoughtBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSonOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#livesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#normallyAttacksWith"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFought"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAlly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isMortal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isProtagonist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Athens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desert_Of_Souls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#God1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#God2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#God3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#God4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#God5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#God6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#God7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Human1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sword1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sword2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sword3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Titan1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aegean_Sea"/>
+        <Class IRI="#Seas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arche"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Army_Of_Hades"/>
+        <Class IRI="#Powers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athens"/>
+        <Class IRI="#Cities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athens_Soldiers"/>
+        <Class IRI="#Human_Characters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athens_Soldiers"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#alsoAttacksWith"/>
+            <Class IRI="#Regular_Arche"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athens_Soldiers"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athens_Spectre"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athens_Spectre"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Axe"/>
+        <Class IRI="#Other_Weapons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Body"/>
+        <Class IRI="#Other_Weapons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Body_Burner"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centaur"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centaur"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Arche"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cerberus_Brood"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cerberus_Brood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chaos_Swords"/>
+        <Class IRI="#Sword"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Character"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cities"/>
+        <Class IRI="#Human_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cursed_Archer"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cursed_Archer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Arche"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cursed_Legionnaire"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cursed_Legionnaire"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dead_Legionary"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dead_Legionary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Cyclop"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Cyclop"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Mermaid"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Mermaid"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#alsoAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Mermaid"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Projectiles"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Of_Lost_Souls"/>
+        <Class IRI="#Deserts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Spectre"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert_Spectre"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deserts"/>
+        <Class IRI="#Human_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Double_Bladed_Spear"/>
+        <Class IRI="#Sword"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evil_Clones"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evil_Clones"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Chaos_Swords"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fury_Of_Zeus"/>
+        <Class IRI="#Powers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game_Monsters"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game_Monsters"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#isAlly"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaze_Of_Medusa"/>
+        <Class IRI="#Powers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#God"/>
+        <Class IRI="#Game_Difficulty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gods"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gods"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#livesIn"/>
+            <Class IRI="#Olympus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gods_Localities"/>
+        <Class IRI="#Locality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gorgon_Eyes"/>
+        <Class IRI="#Relics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gravedigger"/>
+        <Class IRI="#Human_Characters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Greek_Monsters"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Greek_Monsters"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#isAlly"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades"/>
+        <Class IRI="#Gods_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Harpy"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Harpy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Legionary"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Legionary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Minotaur"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Minotaur"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Satyr"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hades_Satyr"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Double_Bladed_Spear"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hammer"/>
+        <Class IRI="#Other_Weapons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hero"/>
+        <Class IRI="#Game_Difficulty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Characters"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Localities"/>
+        <Class IRI="#Locality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydra"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydra"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#attacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keys_Of_Muses"/>
+        <Class IRI="#Relics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Killer_Gorgon"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Killer_Gorgon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legionary_Captain"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legionary_Captain"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Locality"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magical_Legionary"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magical_Legionary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medusa"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medusa"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#attacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moral"/>
+        <Class IRI="#Game_Difficulty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Dead_Archer"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Dead_Archer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Arche"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Dead_Legionary"/>
+        <Class IRI="#Game_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Dead_Legionary"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Olympus"/>
+        <Class IRI="#Gods_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oracle_Of_Athens"/>
+        <Class IRI="#Human_Characters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_Localities"/>
+        <Class IRI="#Human_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_Weapons"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pandora_Keeper"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pandora_Keeper"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pandoras_Temple"/>
+        <Class IRI="#Other_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phoenix_Feathers"/>
+        <Class IRI="#Relics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poseidons_Trident"/>
+        <Class IRI="#Relics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Powers"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Projectiles"/>
+        <Class IRI="#Other_Weapons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Arche"/>
+        <Class IRI="#Arche"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Cyclop"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Cyclop"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Gorgon"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Gorgon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Harpy"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Harpy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Satyr"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Satyr"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Double_Bladed_Spear"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Sword"/>
+        <Class IRI="#Sword"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relics"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailor"/>
+        <Class IRI="#Human_Characters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seas"/>
+        <Class IRI="#Human_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soldier_Minotaur"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soldier_Minotaur"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Regular_Sword"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spartan"/>
+        <Class IRI="#Game_Difficulty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spartan_Soldier"/>
+        <Class IRI="#Human_Characters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suicide_Bluffs"/>
+        <Class IRI="#Other_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sword"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swords_Of_Artemis"/>
+        <Class IRI="#Sword"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swords_Of_Gods"/>
+        <Class IRI="#Sword"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temple_Of_Oracle"/>
+        <Class IRI="#Other_Localities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Titans"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torturer_Minotaur"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torturer_Minotaur"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Axe"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Minotaur"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Minotaur"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Hammer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weapon"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wild_Cyclop"/>
+        <Class IRI="#Greek_Monsters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wild_Cyclop"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#normallyAttacksWith"/>
+            <Class IRI="#Body"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrath_Of_Gods"/>
+        <Class IRI="#Powers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrath_Of_Poseidon"/>
+        <Class IRI="#Powers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zeus_Mountain"/>
+        <Class IRI="#Other_Localities"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#God"/>
+        <Class IRI="#Hero"/>
+        <Class IRI="#Moral"/>
+        <Class IRI="#Spartan"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Athens"/>
+        <NamedIndividual IRI="#Athens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desert_Of_Lost_Souls"/>
+        <NamedIndividual IRI="#Desert_Of_Souls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#God1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#God2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#God3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#God4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#God5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#God6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#God7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gods"/>
+        <NamedIndividual IRI="#Human1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spartan_Soldier"/>
+        <NamedIndividual IRI="#Human1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Army_Of_Hades"/>
+        <NamedIndividual IRI="#Power1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fury_Of_Zeus"/>
+        <NamedIndividual IRI="#Power2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaze_Of_Medusa"/>
+        <NamedIndividual IRI="#Power3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wrath_Of_Gods"/>
+        <NamedIndividual IRI="#Power4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wrath_Of_Poseidon"/>
+        <NamedIndividual IRI="#Power5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chaos_Swords"/>
+        <NamedIndividual IRI="#Sword1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Swords_Of_Artemis"/>
+        <NamedIndividual IRI="#Sword2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Swords_Of_Gods"/>
+        <NamedIndividual IRI="#Sword3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titans"/>
+        <NamedIndividual IRI="#Titan1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFoughtBy"/>
+        <NamedIndividual IRI="#God1"/>
+        <NamedIndividual IRI="#Human1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#God2"/>
+        <NamedIndividual IRI="#Human1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Power1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Power2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Power3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Power4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Power5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Sword2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Sword3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fightAgainst"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#God1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFrom"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Athens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSonOf"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#God2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#normallyAttacksWith"/>
+        <NamedIndividual IRI="#Human1"/>
+        <NamedIndividual IRI="#Sword1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#God1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#God1"/>
+        <Literal>Ares</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlly"/>
+        <NamedIndividual IRI="#God1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#God1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#God2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#God2"/>
+        <Literal>Zeus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlly"/>
+        <NamedIndividual IRI="#God2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#God2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#God3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#God3"/>
+        <Literal>Athenea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlly"/>
+        <NamedIndividual IRI="#God3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#God3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#God4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#God4"/>
+        <Literal>Artemis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlly"/>
+        <NamedIndividual IRI="#God4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#God4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#God5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#God5"/>
+        <Literal>Aphrodite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlly"/>
+        <NamedIndividual IRI="#God5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#God5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#God6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#God6"/>
+        <Literal>Hades</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlly"/>
+        <NamedIndividual IRI="#God6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#God6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#God7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#God7"/>
+        <Literal>Poseidon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlly"/>
+        <NamedIndividual IRI="#God7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#God7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#Human1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Human1"/>
+        <Literal>Kratos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#Human1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isProtagonist"/>
+        <NamedIndividual IRI="#Human1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Power1"/>
+        <Literal>Army Of Hades</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Power2"/>
+        <Literal>Fury Of Zeus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Power3"/>
+        <Literal>Gaze Of Medusa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Power4"/>
+        <Literal>Wrath Of Gods</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Power5"/>
+        <Literal>Wrath Of Poseidon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Sword1"/>
+        <Literal>Chaos Swords</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Sword2"/>
+        <Literal>Swords Of Artemis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Sword3"/>
+        <Literal>Swords of the Gods</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFought"/>
+        <NamedIndividual IRI="#Titan1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Titan1"/>
+        <Literal>Chronos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMortal"/>
+        <NamedIndividual IRI="#Titan1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <ObjectProperty IRI="#attacksWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#normallyAttacksWith"/>
+        <ObjectProperty IRI="#attacksWith"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#fightAgainst"/>
+        <ObjectProperty IRI="#isFoughtBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <ObjectProperty IRI="#isSonOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isFatherOf"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#fightAgainst"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attacksWith"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fightAgainst"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFoughtBy"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFrom"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSonOf"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#normallyAttacksWith"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#alsoAttacksWith"/>
+        <Class IRI="#Weapon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attacksWith"/>
+        <Class IRI="#Weapon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fightAgainst"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFoughtBy"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFrom"/>
+        <Class IRI="#Locality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSonOf"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#Locality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#normallyAttacksWith"/>
+        <Class IRI="#Weapon"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFought"/>
+        <Class IRI="#Character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <ObjectUnionOf>
+            <Class IRI="#Character"/>
+            <Class IRI="#Powers"/>
+            <Class IRI="#Sword"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAlly"/>
+        <Class IRI="#Character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isMortal"/>
+        <Class IRI="#Character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isProtagonist"/>
+        <Class IRI="#Character"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFought"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAlly"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isMortal"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isProtagonist"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,22 @@
+Cerca(Ei, Ef:estados){
+    pends = (Ei, 0, h(Ei));
+    tract = 0;
+    trobat = false;
+    while(!trobat) && (pends != 0){
+        N, camino, valor = primero(pends);
+        elminiar_primero(pends);
+        if(N=Ef){
+            trobat = true;
+            solucion = camino;
+        }else{
+            foreach( sucesor X de N ){
+                if (X no pertenece tract) && (X no pertenece pends){
+                    pends = anadir_orden(pends,[X, camino+op , h(X)]);
+                } 
+            }
+            tracts = tracts + {N};
+        }
+    }
+    if(trobat)return(solucion);
+    else return('No hay solucion');
+}
